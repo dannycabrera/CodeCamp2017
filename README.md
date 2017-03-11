@@ -5,4 +5,4 @@ watchOS 3 app to select a destination, find nearby Uber drivers time estimates a
 
 Uber API: https://developer.uber.com
 
-Nuget Packages: http://www.newtonsoft.com/json
+Nuget Package: http://www.newtonsoft.com/json
