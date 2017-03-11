@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <label alignment="left" text="Start:" id="0"/>
+                        <label alignment="left" text="Destination:" id="1"/>
+                        <button width="1" alignment="left" title="Get Time Estimates" id="2">
+                            <connections>
+                                <action selector="OnGetTimeEstimates" destination="AgC-eL-Hgc" id="3"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="lblStart" destination="0" id="name-outlet-0"/>
+                        <outlet property="lblDestination" destination="1" id="name-outlet-1"/>
+                        <outlet property="btnGetTimeEstimates" destination="2" id="name-outlet-2"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <scene sceneID="4">
+            <objects>
+                <controller id="5" customClass="EstimatesController" identifier="EstimatesController">
+                    <items>
+                        <table alignment="left" id="6">
+                            <items>
+                                <tableRow id="7" customClass="RowController">
+                                    <group key="rootItem" width="1" alignment="left" id="8">
+                                        <items>
+                                            <label alignment="left" text="UberType - 0m" id="9" width="127" height="38"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="rowGroup" destination="8" id="name-outlet-8"/>
+                                        <outlet property="myRowLabel" destination="9" id="name-outlet-9"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="myTable" destination="6" id="name-outlet-6"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="174" y="-2"/>
+        </scene>
+        <scene sceneID="10">
+            <objects>
+                <controller id="11" customClass="DestinationController" identifier="DestinationController">
+                    <items>
+                        <label alignment="left" text="UberType: $" id="12"/>
+                        <label alignment="left" text="Miles: 0" id="13"/>
+                        <label alignment="left" text="Time: 0m" id="14"/>
+                    </items>
+                    <connections>
+                        <outlet property="lblTypeCost" destination="12" id="name-outlet-12"/>
+                        <outlet property="lblMiles" destination="13" id="name-outlet-13"/>
+                        <outlet property="lblTime" destination="14" id="name-outlet-14"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="343" y="-3"/>
+        </scene>
+    </scenes>
+</document>

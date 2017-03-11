@@ -1,0 +1,10 @@
+/Users/DannyC/CodeCamp2017/obj/iPhoneSimulator/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/DannyC/CodeCamp2017/obj/iPhoneSimulator/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/DannyC/CodeCamp2017/obj/iPhoneSimulator/Release/actool/_PartialAppManifest.items
+/Users/DannyC/CodeCamp2017/obj/iPhoneSimulator/Release/actool/_BundleResourceWithLogicalName.items
+/Users/DannyC/CodeCamp2017/obj/iPhoneSimulator/Release/optimized/
+/Users/DannyC/CodeCamp2017/bin/iPhoneSimulator/Release/CodeCamp2017.exe.mdb
+/Users/DannyC/CodeCamp2017/bin/iPhoneSimulator/Release/CodeCamp2017.exe
+/Users/DannyC/CodeCamp2017/obj/iPhoneSimulator/Release/CodeCamp2017.exe
+/Users/DannyC/CodeCamp2017/obj/iPhoneSimulator/Release/CodeCamp2017.exe.mdb
+/Users/DannyC/CodeCamp2017/bin/iPhoneSimulator/Release/Newtonsoft.Json.dll

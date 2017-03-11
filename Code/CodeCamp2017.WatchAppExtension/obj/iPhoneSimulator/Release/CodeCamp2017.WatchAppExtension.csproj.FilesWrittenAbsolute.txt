@@ -1,0 +1,9 @@
+/Users/DannyC/CodeCamp2017/CodeCamp2017.WatchAppExtension/obj/iPhoneSimulator/Release/Xamarin.WatchOS,Version=v1.0.AssemblyAttribute.cs
+/Users/DannyC/CodeCamp2017/CodeCamp2017.WatchAppExtension/obj/iPhoneSimulator/Release/actool/_PartialAppManifest.items
+/Users/DannyC/CodeCamp2017/CodeCamp2017.WatchAppExtension/obj/iPhoneSimulator/Release/actool/_BundleResourceWithLogicalName.items
+/Users/DannyC/CodeCamp2017/CodeCamp2017.WatchAppExtension/obj/iPhoneSimulator/Release/optimized/
+/Users/DannyC/CodeCamp2017/CodeCamp2017.WatchAppExtension/bin/iPhoneSimulator/Release/CodeCamp2017WatchAppExtension.dll.mdb
+/Users/DannyC/CodeCamp2017/CodeCamp2017.WatchAppExtension/bin/iPhoneSimulator/Release/CodeCamp2017WatchAppExtension.dll
+/Users/DannyC/CodeCamp2017/CodeCamp2017.WatchAppExtension/obj/iPhoneSimulator/Release/CodeCamp2017WatchAppExtension.dll
+/Users/DannyC/CodeCamp2017/CodeCamp2017.WatchAppExtension/obj/iPhoneSimulator/Release/CodeCamp2017WatchAppExtension.dll.mdb
+/Users/DannyC/CodeCamp2017/CodeCamp2017.WatchAppExtension/bin/iPhoneSimulator/Release/Newtonsoft.Json.dll
